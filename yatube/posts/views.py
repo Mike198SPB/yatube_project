@@ -1,11 +1,16 @@
 # from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Главная страница yatube')
+    template = 'posts/index.html'
+    return render(request, template)
 
 
 def group_posts(request, slug):
-    return HttpResponse(f'Группы постов {slug}')
+    template = 'posts/group_list.html'
+    return render(request, template)
+    # непонятно нужно или нет передавать слаш как аргумент
+    # return HttpResponse(f'Группы постов {slug}')
