@@ -6,11 +6,21 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     template = 'posts/index.html'
-    return render(request, template)
+    title = 'Это главная страница проекта Yatube'
+    text = 'Последние обновления на сайте'
+    context = {
+        'title': title,
+        'text': text,
+    }
+    return render(request, template, context)
 
 
 def group_posts(request, slug):
     template = 'posts/group_list.html'
-    return render(request, template)
-    # непонятно нужно или нет передавать слаш как аргумент
-    # return HttpResponse(f'Группы постов {slug}')
+    title = 'Здесь будет информация о группах проекта Yatube'
+    text = 'Лев Толстой – зеркало русской революции'
+    context = {
+        'title': title,
+        'text': text,
+    }
+    return render(request, template, context)

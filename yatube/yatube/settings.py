@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 # Quick-start development settings - unsuitable for production
@@ -31,13 +32,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'posts.apps.PostsConfig',  # Регистрация приложения posts ДОЛЖНО БЫТЬ ПОСЛЕ СТАНДАРТНЫХ
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'posts.apps.PostsConfig',
 ]
 
 MIDDLEWARE = [
