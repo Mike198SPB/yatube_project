@@ -1,6 +1,6 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_YAtube_0"></a>Проект YAtube</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="_________1"></a><em>Простая социальная сеть в рамках учебного кейса</em></h2>
-<p class="has-line-data" data-line-start="3" data-line-end="4"><a href="https://practicum.yandex.ru"><img src="https://ie.wampi.ru/2022/12/25/logo1.png" alt="Ya practicum"></a></p>
+<p class="has-line-data" data-line-start="3" data-line-end="4"><a href="https://practicum.yandex.ru"><img src="https://im.wampi.ru/2022/12/26/logo1.png" alt="Ya practicum"></a></p>
 <p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://travis-ci.org/joemccann/dillinger"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status"></a></p>
 <h2 class="code-line" data-line-start=8 data-line-end=9 ><a id="___8"></a>Возможности социальной сети</h2>
 <ul>
